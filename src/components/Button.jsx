@@ -27,7 +27,7 @@ const Button = ({
           src={iconURL}
           alt="Icon"
           className="ml-2 rounded-full w-5 h-5 group-hover:bg-coral-red 
-      group-hover:border-2 group-hover: border-coral-red"
+      group-hover:border-2 group-hover:border-coral-red dark:group-hover:bg-zero"
         />
       )}
     </button>

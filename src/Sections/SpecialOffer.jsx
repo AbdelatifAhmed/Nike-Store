@@ -9,15 +9,15 @@ const SpecialOffer = () => {
         <img src={offer} alt="offer"  width={773} height={687} className="object-contain w-full"/>
       </div>
       <div className='flex flex-1 flex-col'>
-        <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
+        <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold dark:text-slate-50'>
           <span className='text-coral-red'>Special </span> Offer
         </h2>
-        <p className='mt-4 lg:max-w-lg info-text'>
+        <p className='mt-4 lg:max-w-lg info-text dark:text-slate-400'>
         Embark on a shopping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
           offer unparalleled value that sets us apart.
         </p>
-        <p className='mt-6 lg:max-w-lg info-text'>
+        <p className='mt-6 lg:max-w-lg info-text dark:text-slate-400'>
         Navigate a realm of possibilities designed to fulfill your unique
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.</p>

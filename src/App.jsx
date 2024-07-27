@@ -9,7 +9,7 @@ import SuperQuality from './Sections/SuperQuality'
 import Nav from './components/Nav'
 export default function App() {
   return (
-    <main className="relative">
+    <main className="relative dark:bg-slate-900">
       <Nav/>
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero/>
@@ -26,7 +26,7 @@ export default function App() {
       <section className="padding">
         <SpecialOffer/>
       </section>
-      <section className="bg-pale-blue padding">
+      <section className="bg-pale-blue padding dark:bg-slate-950">
         <CustomerReviews/>
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">

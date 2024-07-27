@@ -4,12 +4,12 @@ import { reviews } from "../constants"
 const CustomerReviews = () => {
   return (
     <section className="max-container ">
-      <h3 className="font-palanquin text-center text-4xl font-bold capitalize">
+      <h3 className="font-palanquin text-center text-4xl font-bold capitalize dark:text-slate-50">
         what Our 
         <span className="text-coral-red"> Customers </span>
         say ?
       </h3>
-      <p className='m-auto mt-4 max-w-lg  text-center info-text'>
+      <p className='m-auto mt-4 max-w-lg  text-center info-text dark:text-slate-400'>
         Hear genuine stories from our satisfied customers about their
         exceptional experiences with us.
       </p>
